@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+
+    <link rel="icon" href="img1.jpeg">
+    <title>seccion productos</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+    
+    <link rel="stylesheet" href="hambur.css">
+    </head>
+    <body>
+        <header>
+            <h1>FERRETERIA HERNANDEZ RAMIREZ</h1>
+
+        </header>
+        <nav>
+         <ul class="menu-horizontal">
+         <li><a href="Index.html">Inicio</a></li>
+         <li>
+           <a href="#">¿Quiénes somos?</a>
+            <ul class="menu-vertical">
+             <li><a href="misivisi.html#seccion1">Misión</a></li>
+              <li><a href="misivisi.html#seccion2">Visión</a></li>
+              </ul>
+              </li>
+           <li>
+           <a href="#">Menú</a>
+           <ul class="menu-vertical">
+            <li><a href="costruccion.html">Construcción</a></li>
+            <li><a href="jardineria.html">Jardineria</a></li>
+            <li><a href="Hogar.html">Hogar</a></li>
+            </ul>
+           </li>
+           <li><a href="formulario.html">Contáctanos</a></li>
+           
+        
+           </ul>
+        </nav>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                      
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <h3>Desbrozadora</h3>
+                            <span>$1619.00</span>
+                           
+                            <p>
+                                Swedish Husky Power Desbrazadora
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="jar 1.jpg" alt="">  
+                        </div>
+                    </div>
+                    <a href="#" class="btn-1"> comprar</a>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <h3>Tijera para podar</h3>
+                            <span>$190.00</span>
+                           
+                            <p>
+                                Truper T 17, tijera para podar, ligera, 50cm, mango
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="jar 2.jpg" alt="">  
+                        </div>
+                    </div>
+                    <a href="#" class="btn-1"> comprar</a>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                       
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <h3>Herramientas de jardineria</h3>
+                            <span>$109.00</span>
+                           
+                            <p>
+                                Juego de 3 herramientas de jardineria para jardin
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="jar 3.jpg" alt="">  
+                        </div>
+                    </div>
+                    <a href="#" class="btn-1"> comprar</a>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <h3>Cierra electrica</h3>
+                            <span>$816.00</span>
+                           
+                            <p>
+                             BLACK+DECKER BEHT150 Hedge Trimmer
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="jar 4.jpg" alt="">  
+                        </div>
+                    </div>
+                    <a href="#" class="btn-1"> comprar</a>
+                </div>
+            </div>
+        </div>         
+               
+
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <script>
+           var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:0,
+                stretch:0
+            }
+           })
+       </script>
+           <footer> © 2024 FERRETERIA HERNANDEZ RAMIREZ . Todos los derechos reservados.</footer>
+    </body>
+</html>

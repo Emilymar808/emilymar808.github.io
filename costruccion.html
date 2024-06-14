@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img1.jpeg">
+    <title>seccion productos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+    
+    <script src="app.js" async></script>
+    <link rel="stylesheet" href="estilo_carro.css">
+    <link rel="stylesheet" href="styleeproduc.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FERRETERIA HERNANDEZ RAMIREZ</h1>
+
+    </header>
+    <nav>
+        <ul class="menu-horizontal">
+        <li><a href="Index.html">Inicio</a></li>
+        <li>
+          <a href="#">¿Quiénes somos?</a>
+           <ul class="menu-vertical">
+            <li><a href="misivisi.html#seccion1">Misión</a></li>
+             <li><a href="misivisi.html#seccion2">Visión</a></li>
+             </ul>
+             </li>
+          <li>
+          <a href="#">Menú</a>
+          <ul class="menu-vertical">
+           <li><a href="costruccion.html">Construcción</a></li>
+           <li><a href="jardineria.html">Jardineria</a></li>
+           <li><a href="Hogar.html">Hogar</a></li>
+           </ul>
+          </li>
+          <li><a href="formulario.html">Contáctanos</a></li>
+          
+       
+          </ul>
+       </nav>
+    <center>
+    <div id="seccion">
+        <!-- Contenedor de elementos -->
+        <div class="item">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="icons">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="imgsp/logosoli.jpg" alt="">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                            <div class="product-content">
+                                <div class="product-txt">
+                                    <span class="titulo-item">Martillo demoledor</span>
+                                    <span class="precio-item">$200.000</span>
+                                    <p>
+                                        Martillo demoledor Hex 30kg 62 J 2000 W Truper
+                                    </p>
+                                </div>
+                                <div class="product-img">
+                                    <img src="nose 1.jpg" alt=""> 
+                                </div>   
+                            </div>            
+                            <button class="boton-item">Agregar al Carrito</button>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="icons">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <img src="imgsp/logosoli.jpg">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                            <div class="product-content">
+                                <div class="product-txt">
+                                    <span class="titulo-item">Pala</span>
+                                    <span class="precio-item">$54.000</span>
+                                    <p>
+                                        Pala para alizar mezcla marca Truper
+                                   </p>
+                                </div>
+                                <div class="product-img">
+                                    <img src="nose 2.jpg" alt="">  
+                                </div>
+                            </div>
+                            <button class="boton-item">Agregar al Carrito</button>
+                    </div>
+
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <img src="imgsp/logosoli.jpg ">
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <span class="titulo-item">juego de tres formones</span>
+                            <span class="precio-item">$267.000</span>
+                            
+                            <p>
+                                Para pintura  
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="no se 3.jpg" alt="">  
+                        </div>
+                    </div>  
+                        <button class="boton-item">Agregar al Carrito</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="icons">
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <img src="imgsp/logosoli.jpg ">
+                        <i class="fa-regular fa-heart"></i>
+
+                    </div>
+                    <div class="product-content">
+                        <div class="product-txt">
+                            <span class="titulo-item">Martillo electrico</span>
+                            <span class="precio-item">$1299.000</span>
+                            
+                            <p>
+                              TXG Martillo electrico Rotomartillo Cincelador Perforador para Concreto
+                            </p>
+                        </div>
+                        <div class="product-img">
+                            <img src="no se 4.jpg" alt="">  
+                        </div>
+                    </div>
+                        <button class="boton-item">Agregar al Carrito</button>
+                </div>
+            </div>
+                
+        </center>
+
+
+      
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <script>
+           // Inicializar Swiper
+           var swiper = new Swiper(".mySwiper", {
+               effect: "coverflow",
+               grabCursor: true,
+               centeredSlides: true,
+               slidesPerView: "auto",
+               loop: true,
+               coverflowEffect: {
+                   depth: 500,
+                   modifier: 1,
+                   slideShadows: true,
+                   rotate: 0,
+                   stretch: 0
+               }
+           });
+   
+           // Escuchar el evento de tecla
+           document.addEventListener('keydown', function(event) {
+               switch (event.keyCode) {
+                   case 37:  // Flecha izquierda
+                       swiper.slidePrev();
+                       break;
+                   case 39:  // Flecha derecha
+                       swiper.slideNext();
+                       break;
+                   case 13:  // Enter
+                       const activeSlide = document.querySelector('.swiper-slide-active');
+                       const addToCartButton = activeSlide.querySelector('.btn-1');
+                       if (addToCartButton) {
+                           addToCartButton.click();
+                       }
+                       break;
+               }
+           });
+       </script>
+       
+       <footer> © 2024 FERRETERIA HERNANDEZ RAMIREZ . Todos los derechos reservados.</footer>
+    </body>
+</html>
